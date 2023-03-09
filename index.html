@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Montserrat:ital,wght@0,100;0,200;0,400;1,100;1,200;1,300;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <title>Resume 4-Christopher Makombe-Group A</title>
+</head>
+     <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+        }
+        p:hover {
+            font-size: 60px;
+        }
+
+        /* Media queries for different screen sizes */
+        @media only screen and (max-width: 600px) {
+            /* Styles for mobile screens */
+            .hero-content {
+                text-align: center;
+            }
+            .profile-picture {
+                max-width: 100%;
+            }
+            .container-exp {
+                padding: 10px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+            ul {
+                margin-left: 20px;
+            }
+        }
+
+        @media only screen and (min-width: 600px) and (max-width: 900px) {
+            /* Styles for tablet screens */
+            .hero-content {
+                text-align: center;
+            }
+            .profile-picture {
+                max-width: 100%;
+            }
+            .container-exp {
+                padding: 30px;
+            }
+            h2 {
+                font-size: 25px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+            ul {
+                margin-left: 20px;
+            }
+        }
+
+        @media only screen and (min-width: 900px) {
+            /* Styles for laptop/desktop screens */
+            .hero-content {
+                text-align: left;
+            }
+            .profile-picture {
+                max-width: 200px;
+            }
+            .container-exp {
+                padding: 50px;
+            }
+            h2 {
+                font-size: 30px;
+            }
+            h3 {
+                font-size: 25px;
+            }
+            ul {
+                margin-left: 30px;
+            }
+        }
+    </style>
+<body>
+    <div class="hero"> 
+    <div class="hero-content">
+    <picture>
+    <img src="images/headshot.jpg" alt="Profile Picture" class="profile-picture">
+    </picture>
+    <h1 class="name">Christopher</h1>
+    <p class="intro">ITW TO WEB </p>
+    </div>
+    </div>
+    
+    
+    
+
+    <div class="container-exp">
+    <div class="ed">
+    <h2 id="education" style="font-size: 25px;">Education</h2>
+    <h3 style="font-size: 20px; color:green"> Intro to Web at <a class="a" href="http://codespace.co.za/"> CodeSpace Academy</a></h3>
+    <p>Very Insightful  </p>
+    <h3 style="font-size: 20px;"> CS50 Course by Harvard</h3>
+    <p>Wonderful course to introduce explain how computer works and computer networking.</p>
+    </div>
+    
+
+    <div class="exp" style="padding-left: 50px;">
+    <h2 id="experience" style="font-size: 25px;">Experience</h2>
+        <h3  style="font-size: 20px;">Freelance Gig</h3>
+        <ul>
+            <li>Had to make a website for one of my clients who didn't have a set out design for their own establishment.</li>
+            <li>I scoured GitHub to get inspiration for the design layout ,found this neat single page website with React and wanted to challenge myself to turn it into a multipage website using NextJs</li>
+            <li>I plan to elevate the website when I have time</li>
+            <li>The reason why I chose NextJs is because its very good in SEO optimization and also index makes the website faster like the Flash</li>
+        </ul>
+    <h3 style="font-size: 20px;">Personal Website for my startup</h3>
+        <ul>
+            <li>I needed a website really quickly so I made a not so looking website ,since I fell in love with mobile development with React Native .It was challenging at first.</li>
+            <li>I lost touch of making a website .</li>
+            <li>It was challenging at first.</li>
+        </ul>
+        <h2 id="skills" style="font-size: 25px;">Skills</h2>
+        <ul>
+        <li>JavaScript</li>
+        <li>React Js </li>
+        <li>Next Js</li>
+        <li>React Native Expo </li>
+    </ul>
+    </div>
+    </div>
+    
+    <footer class="footer">
+    <h3>Contact Me</h3>
+    <form action="https://formsubmit.co/8011ef257a98c6d02e4d2e3719ee536e" method="POST">
+    <label class="label" for="subject">Subject:</label><br>
+    <select name="subject" id="subject" required>
+        <option value="">Please select a subject</option>
+        <option value="Job opportunity">Job opportunity</option>
+        <option value="Freelance project">Freelance project</option>
+        <option value="Collaboration">Collaboration</option>
+        <option value="Other">Other</option>
+    </select><br><br>
+    <label  class="label" for="email">Email:</label><br>
+    <input class="input" type="email" id="email" name="email" required><br><br>
+    <label   class="label" for="message">Message:</label><br>
+    <textarea class="textarea" id="message" name="message"></textarea><br><br>
+    <input class="submit" type="submit" value="Submit">
+    </form>
+</footer>
+    
+    </article>
+    </header>
+</body>
+</html>
